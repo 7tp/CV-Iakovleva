@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="description" content="Curriculum vitae Iakovleva">
   <meta name="keywords" content="Webpack, HTML5, CSS3, Java Script, CV">
-  <link rel="icon" sizes="any" type="image/png" href="./img/favicon-32x32.png">
-  <link rel="icon" sizes="any" type="image/ico" href="./img/favicon.ico">
+  <link rel="icon" sizes="any" type="image/png" href="<%=require('./img/favicon-32x32.png').default%>">
+  <link rel="icon" sizes="any" type="image/ico" href="<%=require('./img/favicon.ico').default%>">
   <meta name="author" content="Irina Iakovleva">
   <title>Irina Iakovleva</title>
-  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="<%= htmlWebpackPlugin.files.chunks.main.css %>">
 </head>
 <body>
 
@@ -29,7 +29,7 @@
 
     <section class="info">
       <div class="info__avatar">
-        <img class="info__avatar-img" src="./img/avatar.jpg" alt="my photo">
+        <img class="info__avatar-img" src="<%=require('./img/avatar.jpg').default%>" alt="my photo">
       </div>
       <div><a href="mailto:irinatrifonovna@gmail.com"
         class="link">irinatrifonovna@gmail.com</a></div>
@@ -129,6 +129,8 @@
       </ul>
     </footer>
   </div>
+
+  <script src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
 
 </body>
 </html>

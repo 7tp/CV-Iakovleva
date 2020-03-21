@@ -1,6 +1,5 @@
 @import url(./__name/header__name.css);
 @import url(./__position/header__position.css);
-@import url(./__profile/header__profile.css);
 
 .header {
   font-family: 'Roboto Condensed', Arial, sans-serif;
