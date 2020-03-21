@@ -1,0 +1,9 @@
+@import url(./__place/education__place.css);
+@import url(./__title/education__title.css);
+@import url(./__year/education__year.css);
+@import url(./__space/education__space.css);
+@import url(./__addition/education__addition.css);
+
+.education {
+  grid-area: education;
+}

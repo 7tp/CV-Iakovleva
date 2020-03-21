@@ -1,0 +1,5 @@
+@import url(./__list/footer__list.css);
+
+.footer {
+  grid-area: footer;
+}

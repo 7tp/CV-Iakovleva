@@ -1,0 +1,7 @@
+@import url(./__place/experience__place.css);
+@import url(./__title/experience__title.css);
+@import url(./__date/experience__date.css);
+
+.experience {
+  grid-area: experience;
+}

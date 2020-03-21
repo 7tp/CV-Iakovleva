@@ -1,0 +1,10 @@
+.header__position {
+  font-size: 30px;
+  margin: 20px 0 0 0;
+}
+
+@media screen and (max-width: 395px) {
+  .header__position {
+    font-size: 22px;
+  }
+}

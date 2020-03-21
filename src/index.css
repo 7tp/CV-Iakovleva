@@ -1,0 +1,18 @@
+@import url(./vendor/normalize.css);
+@import url(./vendor/fonts.css);
+@import url(./blocks/header/header.css);
+@import url(./blocks/root/root.css);
+@import url(./blocks/bold-text/bold-text.css);
+@import url(./blocks/info/info.css);
+@import url(./blocks/experience/experience.css);
+@import url(./blocks/education/education.css);
+@import url(./blocks/skills/skills.css);
+@import url(./blocks/other-skills/other-skills.css);
+@import url(./blocks/footer/footer.css);
+@import url(./blocks/hide/hide.css);
+@import url(./blocks/link/link.css);
+
+p {
+  padding: 0;
+  margin: 0;
+}

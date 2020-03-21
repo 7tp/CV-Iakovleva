@@ -1,0 +1,12 @@
+@import url(./__avatar/info__avatar.css);
+@import url(./__avatar-img/info__avatar-img.css);
+
+.info {
+  grid-area: info;
+}
+
+@media screen and (max-width: 599px) {
+  .info {
+    margin: auto;
+  }
+}

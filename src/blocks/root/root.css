@@ -1,0 +1,57 @@
+.root {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-auto-rows: auto;
+  grid-template-areas:
+    "header info"
+    "profile info"
+    "education experience"
+    "skills other-skills"
+    "footer footer";
+  grid-gap: 25px;
+
+  max-width: 1200px;
+  margin: auto;
+  font-family: 'Roboto Condensed', Arial, sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  color: #004581;
+
+  padding: 45px;
+}
+
+.root section {
+  margin-bottom: 35px;
+}
+
+
+@media screen and (max-width: 390px) {
+  .root {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .root {
+    grid-template-columns: auto;
+    grid-area: auto;
+    grid-template-areas:
+      "header"
+      "info"
+      "profile"
+      "experience"
+      "skills"
+      "other-skills"
+      "education"
+      "footer";
+    grid-gap: 0;
+
+    padding: 25px;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1050px) {
+  .root {
+    padding: 35px;
+  }
+}

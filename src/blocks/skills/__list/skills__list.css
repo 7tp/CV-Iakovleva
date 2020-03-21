@@ -1,0 +1,12 @@
+.skills__list {
+  list-style-type: circle;
+  list-style-position: inside;
+}
+
+@media screen and (max-width: 599px) {
+  .skills__list {
+    width: fit-content;
+    margin: auto;
+    padding: 0;
+  }
+}

@@ -1,0 +1,5 @@
+@import url(./__list/other-skills__list.css);
+
+.other-skills {
+  grid-area: other-skills;
+}

@@ -1,0 +1,6 @@
+@import url(./__title/skills__title.css);
+@import url(./__list/skills__list.css);
+
+.skills {
+  grid-area: skills;
+}

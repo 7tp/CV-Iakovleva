@@ -1,0 +1,8 @@
+.link {
+  text-decoration-style: dotted;
+  color: #004581;
+}
+
+.link:hover {
+  color: #018abd;
+}

@@ -1,0 +1,10 @@
+.header__name {
+  margin: 0;
+  font-size: 40px;
+}
+
+@media screen and (max-width: 395px) {
+  .header__name {
+    font-size: 32px;
+  }
+}
