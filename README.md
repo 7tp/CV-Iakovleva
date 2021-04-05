@@ -6,6 +6,16 @@ Responsive HTML/CSS
 БЭМ
 Webpack Cross-browser compatibility
 
+## install
+```sh
+npm install
+```
+
+## build
+```sh
+npm run build
+```
+
 ## author
 Iakovleva Irina
 
